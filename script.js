@@ -9,25 +9,25 @@ inputs.forEach((input) => {
 
     if (e.target.type === "text") {
       if (name_regex.test(value)) {
-        e.target.style.backgroundColor = "#8CE489";
+        e.target.style.backgroundColor = "rgb(144, 238, 144)";
       } else {
-        e.target.style.backgroundColor = "#F7B5BD";
+        e.target.style.backgroundColor = "rgb(255, 192, 203)";
       }
     }
 
     else if (e.target.type === "email") {
       if (email_regex.test(value)) {
-        e.target.style.backgroundColor = "#8CE489";
+        e.target.style.backgroundColor = "rgb(144, 238, 144)";
       } else {
-        e.target.style.backgroundColor = "#F7B5BD";
+        e.target.style.backgroundColor = "rgb(255, 192, 203)";
       }
     }
 
     else if (e.target.type === "number" || e.target.type === "tel") {
       if (phone_regex.test(value)) {
-        e.target.style.backgroundColor = "#8CE489";
+        e.target.style.backgroundColor = "rgb(144, 238, 144)";
       } else {
-        e.target.style.backgroundColor = "#F7B5BD";
+        e.target.style.backgroundColor = "rgb(255, 192, 203)";
       }
     }
   });
